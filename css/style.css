@@ -1,0 +1,528 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #191826;
+  padding: 0 165px;
+  background-color: #F2F2F2;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 118px;
+  max-width: 1110px;
+  padding: 62px 0 22px 0;
+}
+.header__ball {
+  width: 384px;
+  height: 384px;
+  position: absolute;
+  left: -146px;
+  top: -112px;
+  background: rgba(255, 124, 64, 0.5);
+  mix-blend-mode: normal;
+  border-radius: 50%;
+  filter: blur(135.914px);
+}
+.header__logo {
+  background-image: url(../images/shared/logo-equalizer.png);
+  background-size: cover;
+  width: 146px;
+  height: 32px;
+}
+.header .header__logo-active {
+  display: block;
+  width: 146px;
+  height: 32px;
+}
+
+.main .description {
+  position: relative;
+  margin-bottom: 108px;
+}
+.main .description__inner-content {
+  width: 850px;
+  padding: 105px 0;
+}
+.main .content__title {
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+  margin-bottom: 40px;
+}
+.main .content__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+.main .ball__blue {
+  position: absolute;
+  width: 384px;
+  height: 384px;
+  border-radius: 50%;
+  background-color: rgba(64, 255, 245, 0.5);
+  filter: blur(135.914px);
+  left: 735px;
+  top: 0;
+}
+.main .ball__orange {
+  position: absolute;
+  width: 384px;
+  height: 384px;
+  border-radius: 50%;
+  left: 735px;
+  top: 250px;
+  background: rgba(255, 145, 1, 0.4);
+  filter: blur(135.914px);
+}
+.main .ball__imgball {
+  width: 312px;
+  height: 468px;
+  background-image: url(../images/desktop/bg-img1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -118px;
+  left: 960px;
+}
+.main .order {
+  height: 813px;
+  padding-top: 128px;
+  position: relative;
+  margin-bottom: 202px;
+}
+.main .order__block-content {
+  position: absolute;
+  left: 570px;
+  top: 220px;
+  width: 446px;
+  height: 625px;
+  background: #FA7453;
+  border-radius: 12px;
+  color: #FCFAF9;
+  padding: 58px 59px 48px 54px;
+}
+.main .inner {
+  position: relative;
+}
+.main .inner__bgimg {
+  background-image: url(../images/desktop/bg-img-black.png);
+  width: 1110px;
+  height: 600px;
+}
+.main .inner__phone {
+  background-image: url(../images/desktop/phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 642px;
+  position: absolute;
+  top: -85px;
+  left: 102px;
+}
+.main .inner__orange {
+  position: absolute;
+  width: 384px;
+  height: 384px;
+  border-radius: 50%;
+  left: 900px;
+  top: 510px;
+  background: rgba(255, 145, 1, 0.4);
+  filter: blur(135.914px);
+}
+.main .content__subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 22px;
+}
+.main .content__expose {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 39px;
+}
+.main .content__price {
+  width: 165px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 46px;
+}
+.main .content__price span {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  margin-right: 16px;
+}
+.main .content__app {
+  color: #FCFAF9;
+  background-color: #191826;
+  padding: 15px 95px;
+  margin-bottom: 16px;
+}
+.main .content__app:hover {
+  background: #66E2DC;
+}
+.main .content__andr {
+  color: #191826;
+  background: #FCFAF9;
+  padding: 15px 77px;
+}
+.main .content__andr:hover {
+  background: #FFB964;
+}
+.main .btn {
+  display: block;
+  width: 333px;
+  height: 61px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+.main .btn img {
+  margin-right: 8px;
+}
+
+.footer .info {
+  display: inline-block;
+  height: 170px;
+}
+.footer .info__contact {
+  display: flex;
+}
+.footer .contact__logo-active {
+  display: block;
+  max-width: 146px;
+  height: 32px;
+}
+.footer .contact__logo {
+  background-image: url(../images/shared/logo-equalizer.png);
+  background-size: cover;
+  width: 146px;
+  height: 32px;
+}
+.footer .contact__info {
+  width: 366px;
+  height: 79px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+  margin-left: 135px;
+  margin-right: 360px;
+}
+.footer .contact__info span {
+  font-weight: 700;
+}
+.footer .contact__social {
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 30px 0;
+}
+.footer .social__face:hover,
+.footer .social__insta:hover,
+.footer .social__twit:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+@media (max-width: 800px) {
+  .box {
+    width: 768px;
+    padding: 0 33px;
+    background-color: #F2F2F2;
+  }
+  .container {
+    max-width: 702px;
+  }
+  .header {
+    height: 101px;
+    max-width: 702px;
+    padding: 62px 0 7px 0;
+  }
+  .header__ball {
+    left: -254px;
+    background: rgba(255, 124, 64, 0.35);
+  }
+  .main .description {
+    position: relative;
+    margin-bottom: 111px;
+  }
+  .main .description__inner-content {
+    width: 514px;
+    padding: 84px 0;
+  }
+  .main .content__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+    margin-bottom: 28px;
+  }
+  .main .content__text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .main .ball__blue {
+    background-color: rgba(64, 255, 245, 0.5);
+    left: 332px;
+    top: -41px;
+  }
+  .main .ball__orange {
+    left: 332px;
+    top: 206px;
+    background: rgba(255, 145, 1, 0.5);
+  }
+  .main .ball__imgball {
+    width: 267px;
+    height: 400px;
+    background-image: url(../images/tablet/bg-img1-t.png);
+    top: -115px;
+    left: 504px;
+  }
+  .main .order {
+    width: 696px;
+    padding-top: 128px;
+    position: relative;
+    margin-bottom: 202px;
+  }
+  .main .order__block-content {
+    left: 239px;
+    top: 280px;
+    width: 399px;
+    height: 546px;
+    padding: 48px;
+  }
+  .main .inner {
+    position: relative;
+  }
+  .main .inner__bgimg {
+    background-image: url(../images/tablet/bg-img-blackpng.png);
+    width: 696px;
+  }
+  .main .inner__phone {
+    background-image: url(../images/tablet/phone.png);
+    width: 270px;
+    height: 556px;
+    top: -10px;
+    left: 64px;
+  }
+  .main .inner__orange {
+    width: 384px;
+    height: 384px;
+    border-radius: 50%;
+    left: 900px;
+    top: 510px;
+    background: rgba(255, 145, 1, 0.4);
+    filter: blur(135.914px);
+  }
+  .main .content__subtitle {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 2px;
+  }
+  .main .content__expose {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 36px;
+  }
+  .main .content__price {
+    margin-bottom: 32px;
+  }
+  .main .content__app {
+    padding: 15px 70px;
+  }
+  .main .content__andr {
+    padding: 15px 50px;
+  }
+  .main .btn {
+    width: 296px;
+  }
+  .main .btn img {
+    margin-right: 8px;
+  }
+  .footer .info {
+    height: 228px;
+  }
+  .footer .info__contact {
+    display: block;
+    position: relative;
+  }
+  .footer .contact__info {
+    margin-left: 0px;
+    margin-right: 230px;
+    margin-top: 32px;
+  }
+  .footer .contact__social {
+    position: absolute;
+    left: 596px;
+    top: 62px;
+  }
+}
+@media (max-width: 400px) {
+  .box {
+    max-width: 375px;
+    height: 1945px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+  }
+  .container {
+    max-width: 375px;
+    margin: 0;
+  }
+  .header {
+    height: 72px;
+    padding: 40px 0 0 24px;
+  }
+  .header__ball {
+    width: 0;
+    height: 0;
+  }
+  .main .description {
+    position: relative;
+  }
+  .main .description__inner-content {
+    max-width: 327px;
+    max-height: 320px;
+    padding: 64px 24px 68px;
+  }
+  .main .content__title {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    margin-bottom: 20px;
+  }
+  .main .content__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .main .ball__blue {
+    width: 281px;
+    height: 281px;
+    left: 134px;
+    top: -176px;
+  }
+  .main .ball__orange {
+    width: 281px;
+    height: 281px;
+    left: 134px;
+    top: 23px;
+  }
+  .main .ball__imgball {
+    width: none;
+    height: none;
+  }
+  .main .order {
+    height: 813px;
+    padding-top: 128px;
+    position: relative;
+    margin-bottom: 300px;
+  }
+  .main .order__block-content {
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    width: 375px;
+    height: 546px;
+    padding: 48px 37px;
+  }
+  .main .inner {
+    position: relative;
+  }
+  .main .inner__bgimg {
+    background-image: url(../images/mobile/bg-black.png);
+    width: 375px;
+    height: 600px;
+  }
+  .main .inner__phone {
+    background-image: url(../images/mobile/phone.png);
+    width: 209px;
+    height: 430px;
+    top: 25px;
+    left: 81px;
+  }
+  .main .content__subtitle {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+  }
+  .main .content__expose {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 36px;
+  }
+  .main .content__price {
+    width: 165px;
+    height: 52px;
+    margin-bottom: 46px;
+  }
+  .main .content__price span {
+    font-size: 65px;
+    line-height: 52px;
+  }
+  .main .content__app {
+    padding: 15px 76px;
+    margin-bottom: 16px;
+  }
+  .main .content__andr {
+    padding: 15px 55px;
+  }
+  .main .btn {
+    display: block;
+    width: 296px;
+    height: 61px;
+  }
+  .footer .info {
+    height: 255px;
+    padding-left: 24px;
+  }
+  .footer .info__contact {
+    display: block;
+    position: relative;
+  }
+  .footer .contact__info {
+    width: 296px;
+    height: 100px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+  .footer .contact__social {
+    position: absolute;
+    left: 0px;
+    top: 200px;
+  }
+}/*# sourceMappingURL=style.css.map */
